@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: sans-serif;
+    padding: 20px;
+    align-items: center;
+}
+
+.mygalerie {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+.galerie h1{
+    text-align: center;
+    color: blue;
+
+}
+
+.magalerie{
+    display: block;
+    margin: 15px;
+    border: 1px solid aquamarine;
+    width: 200px;
+}
+
+.magalerie:hover{
+    border: 2px solid green;
+}
+
+.magalerie img{
+  width: 200px;
+  height: auto;
+
+}
+
+.text-galerie{
+    padding: 10px;
+    text-align: center;
+}
